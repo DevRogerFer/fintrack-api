@@ -1,19 +1,22 @@
 {
-  "name": "fintrack-api",
-  "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "eslint-plugin-react": "^7.37.5"
-  },
-  "devDependencies": {
-    "eslint": "^8.57.1"
-  }
+    "name": "fintrack-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "postinstall": "npx husky install"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "eslint-plugin-react": "^7.37.5"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.1",
+        "husky": "^9.1.7",
+        "lint-staged": "^16.4.0"
+    }
 }
